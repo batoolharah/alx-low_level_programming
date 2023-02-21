@@ -3,19 +3,21 @@
 /**
  * print_alphabet_x10 - a function that prints 10 times the alphabet
  *
- * Return: Always 0 (Succes)
+ * Return: x10 a-z
  */
 void print_alphabet_x10(void)
 {
-	int  m;
-	char n;
+	int n, co;
 
-	for (m = 0; m < 10; m++)
+	co = 0;
+
+	while (co < 10)
 	{
-		for (n = 'a'; m <= 'z'; n++)
+		for (n = 'a'; n <= 'z'; n++)
 		{
 			_putchar(n);
 		}
+		co++;
 		_putchar('\n');
 	}
 }
