@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-#include <ctype.h>
+
 /**
  * print_sign - a function that  prints the sign of a number.
  * @n: single number input
