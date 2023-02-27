@@ -12,8 +12,12 @@
  */
 int _strlen(char *s)
 {
-	int size;
+	int size = 0;
 
-	size = strlen(*s);
+	while (*s != '\0')
+	{
+		length++;
+		given_string++;
+	}
 	return (size);
 }
